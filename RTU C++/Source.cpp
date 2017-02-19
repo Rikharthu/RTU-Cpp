@@ -26,6 +26,8 @@ public:
 	}
 	// not implemented
 	// TODO how is const keyword used here?
+	// A "const function", denoted with the keyword const after a function declaration, 
+	// makes it a compiler error for this class function to change a member variable of the class
 	int GetY() const;
 	void SetY(int);
 	void Print() const;
