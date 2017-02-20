@@ -22,5 +22,7 @@ int  main()
 	cout << endl << "pop from s1 " << s1.pop();
 	s1.print();
 
+	Stack s2 = s1; // te strada kopijas konstruktors
+
 	getchar();
 }

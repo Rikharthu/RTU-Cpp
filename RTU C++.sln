@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTU C++", "RTU C++\RTU C++.vcxproj", "{26282C2F-B551-4B65-B54E-B5B59F772B8F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Labd_1", "RTU C++\RTU C++.vcxproj", "{26282C2F-B551-4B65-B54E-B5B59F772B8F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack D", "Stack D\Stack D.vcxproj", "{73445B5F-50EE-4384-B50E-D2CA09F6FADC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack S", "Stack S\Stack S.vcxproj", "{CD6CB781-A2C5-4B15-84A9-2302409CA623}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1. laboratorijas darbs", "1. laboratorijas darbs\1. laboratorijas darbs.vcxproj", "{C58A3635-7B2B-428F-B88F-391B7583D963}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,22 @@ Global
 		{73445B5F-50EE-4384-B50E-D2CA09F6FADC}.Release|x64.Build.0 = Release|x64
 		{73445B5F-50EE-4384-B50E-D2CA09F6FADC}.Release|x86.ActiveCfg = Release|Win32
 		{73445B5F-50EE-4384-B50E-D2CA09F6FADC}.Release|x86.Build.0 = Release|Win32
+		{CD6CB781-A2C5-4B15-84A9-2302409CA623}.Debug|x64.ActiveCfg = Debug|x64
+		{CD6CB781-A2C5-4B15-84A9-2302409CA623}.Debug|x64.Build.0 = Debug|x64
+		{CD6CB781-A2C5-4B15-84A9-2302409CA623}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD6CB781-A2C5-4B15-84A9-2302409CA623}.Debug|x86.Build.0 = Debug|Win32
+		{CD6CB781-A2C5-4B15-84A9-2302409CA623}.Release|x64.ActiveCfg = Release|x64
+		{CD6CB781-A2C5-4B15-84A9-2302409CA623}.Release|x64.Build.0 = Release|x64
+		{CD6CB781-A2C5-4B15-84A9-2302409CA623}.Release|x86.ActiveCfg = Release|Win32
+		{CD6CB781-A2C5-4B15-84A9-2302409CA623}.Release|x86.Build.0 = Release|Win32
+		{C58A3635-7B2B-428F-B88F-391B7583D963}.Debug|x64.ActiveCfg = Debug|x64
+		{C58A3635-7B2B-428F-B88F-391B7583D963}.Debug|x64.Build.0 = Debug|x64
+		{C58A3635-7B2B-428F-B88F-391B7583D963}.Debug|x86.ActiveCfg = Debug|Win32
+		{C58A3635-7B2B-428F-B88F-391B7583D963}.Debug|x86.Build.0 = Debug|Win32
+		{C58A3635-7B2B-428F-B88F-391B7583D963}.Release|x64.ActiveCfg = Release|x64
+		{C58A3635-7B2B-428F-B88F-391B7583D963}.Release|x64.Build.0 = Release|x64
+		{C58A3635-7B2B-428F-B88F-391B7583D963}.Release|x86.ActiveCfg = Release|Win32
+		{C58A3635-7B2B-428F-B88F-391B7583D963}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
