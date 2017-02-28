@@ -15,11 +15,13 @@ Rectangle::~Rectangle()
 
 Rectangle::Rectangle(double w, double h) : Figure(0.0, 0.0)
 {
+	cout << "Rectangle constructor(w,h)\n";
 	this->w = w;
 	this->h = h;
 }
 Rectangle::Rectangle(double x, double y, double w, double h) : Figure(x, y)
 {
+	cout << "Rectangle constructor(x,y,w,h)\n";
 	this->w = w;
 	this->h = h;
 }

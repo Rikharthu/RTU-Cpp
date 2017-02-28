@@ -16,5 +16,6 @@ Figure::~Figure()
 
 Figure::Figure(double x, double y)
 {
+	cout << "Figure constructor(x,y)\n";
 	setCoord( x, y);
 }
