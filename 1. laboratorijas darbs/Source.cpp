@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <cstdio>
 #include <string>
-//!+++ 3. Variants
+//!+++ 3. Variants.
 using namespace std;
 
 
