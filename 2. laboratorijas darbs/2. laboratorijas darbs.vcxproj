@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CD6CB781-A2C5-4B15-84A9-2302409CA623}</ProjectGuid>
-    <RootNamespace>StackS</RootNamespace>
+    <ProjectGuid>{15414372-D8D2-4D1E-AEF8-05EE4B843D65}</ProjectGuid>
+    <RootNamespace>My2laboratorijasdarbs</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,11 +110,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="TestStack.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

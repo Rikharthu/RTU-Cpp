@@ -1,5 +1,8 @@
 ﻿#pragma once
 #include <string>
+#include <iostream>
+
+using namespace std;
 
 class Vehicle {
 private:
@@ -13,7 +16,7 @@ public:
 	Vehicle(string, int, string);
 	// destructor
 	~Vehicle() {
-		cout << "Автомобиль #" << regNum << " утилизирован" << endl;
+		cout << "Vehicle #" << regNum << " recycled." << endl;
 	}
 
 	// getters and setters
@@ -32,6 +35,6 @@ public:
 	void setCountry(string);
 
 	string toString() {
-		return "{\n\"regNum\":\"" + regNum + "\"";
+		return string("\"regNum\":\"" + regNum + "\",\n\"year\":" + to_string(year) + ",\n\"country\":\"" + country + "\"");
 	}
 };

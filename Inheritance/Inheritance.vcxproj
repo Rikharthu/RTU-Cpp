@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{73445B5F-50EE-4384-B50E-D2CA09F6FADC}</ProjectGuid>
-    <RootNamespace>StackD</RootNamespace>
+    <ProjectGuid>{7DF69A91-30E2-498B-A3B8-B3EEC82F1B9D}</ProjectGuid>
+    <RootNamespace>Inheritance</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,11 +110,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="TestStack.cpp" />
+    <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="RectangleFilled.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Figure.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="RectangleFilled.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
